@@ -3,7 +3,6 @@ import React from "react";
 import { useState } from "react";
 import { bedroomsList } from "../../data/search-bed-list";
 
-console.log("BedroomsList:", bedroomsList);
 
 // This is the search betroom components for index page
 const SearchBedroom = () => {

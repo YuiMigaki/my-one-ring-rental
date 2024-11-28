@@ -5,8 +5,6 @@ import { slides } from "../../data/main-slider-list";
 import { controls } from "../../data/main-slider-list";
 
 
-console.log("Controls:", controls);
-
 // This is the slider components for index page
 const SlideList = () => {
   // This line initialises the state which is set to 0.The index = The current state value. setIndex = a function to update that state.

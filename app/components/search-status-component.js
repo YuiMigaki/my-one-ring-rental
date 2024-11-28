@@ -4,8 +4,6 @@ import { useState } from "react";
 import { positionList } from "../../data/search-status-list";
 
 
-console.log("PositionList:", positionList);
-
 // This is the search status components for index page
 const SearchStatus = () => {
 

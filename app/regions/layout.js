@@ -1,3 +1,4 @@
+
 //This regions layout receives two props which are children and footer
 export default function RegionsLayout({ children, footer}) {
   return (

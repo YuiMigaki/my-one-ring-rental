@@ -1,4 +1,6 @@
 "use client";
+import "../styles/globals.css";
+
 import Header from "./components/header";
 import Navigation from "./components/navigation";
 import Link from "next/link";
@@ -16,11 +18,6 @@ export default function RootLayout({ children, footer }) {
   return (
     <html lang="en">
       <head>
-        <link
-          href="http://fonts.googleapis.com/css?family=Raleway:300,500,900%7COpen+Sans:400,700,400italic"
-          rel="stylesheet"
-          type="text/css"
-        />
         <link href="css/bootstrap.min.css" rel="stylesheet" />
         <link href="css/style.css" rel="stylesheet" />
         <Script src="js/common/modernizr.js"></Script>

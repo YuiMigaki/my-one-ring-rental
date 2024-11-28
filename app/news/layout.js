@@ -1,3 +1,4 @@
+
 //This news layout receives two props which are children and footer
 export default function NewsLayout({ children, footer}) {
   return (

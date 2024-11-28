@@ -1,3 +1,4 @@
+
 //This contact layout receives two props which are children and footer
 export default function ContactLayout({ children, footer }) {
   return (
