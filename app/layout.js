@@ -21,15 +21,7 @@ export default function RootLayout({ children, footer }) {
         <link href="css/bootstrap.min.css" rel="stylesheet" />
         <link href="css/style.css" rel="stylesheet" />
         <Script rel="preload" src="js/common/modernizr.js" as="script"></Script>
-        <Script rel="preload" src="js/common.js" as="script"></Script>
-        <Script rel="preload" src="js/common/jquery-1.11.1.min.js" as="script"></Script>
-        <Script rel="preload" src="js/common/bootstrap.min.js"  as="script"></Script>
-        <Script rel="preload" src="js/common/bootstrap-datepicker.js" as="script"></Script>
-        <Script rel="preload" src="js/common/chosen.min.js" as="script"></Script>
-        <Script rel="preload" src="js/common/bootstrap-checkbox.js" as="script"></Script>
-        <Script rel="preload" src="js/common/nice-scroll.js" as="script"></Script>
-        <Script rel="preload" src="js/common/jquery-browser.js" as="script"></Script>
-        <Script rel="preload" src="js/scripts.js" as="script"></Script>
+
       </head>
 
       <body suppressHydrationWarning>
@@ -167,7 +159,15 @@ export default function RootLayout({ children, footer }) {
         </div>
         {/* <!-- END WRAPPER --> */}
 
-
+        <Script rel="preload" src="js/common.js" as="script"></Script>
+        <Script rel="preload" src="js/common/jquery-1.11.1.min.js" as="script"></Script>
+        <Script rel="preload" src="js/common/bootstrap.min.js"  as="script"></Script>
+        <Script rel="preload" src="js/common/bootstrap-datepicker.js" as="script"></Script>
+        <Script rel="preload" src="js/common/chosen.min.js" as="script"></Script>
+        <Script rel="preload" src="js/common/bootstrap-checkbox.js" as="script"></Script>
+        <Script rel="preload" src="js/common/nice-scroll.js" as="script"></Script>
+        <Script rel="preload" src="js/common/jquery-browser.js" as="script"></Script>
+        <Script rel="preload" src="js/scripts.js" as="script"></Script>
 
       </body>
     </html>
