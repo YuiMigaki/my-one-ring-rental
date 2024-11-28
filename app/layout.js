@@ -21,6 +21,15 @@ export default function RootLayout({ children, footer }) {
         <link href="css/bootstrap.min.css" rel="stylesheet" />
         <link href="css/style.css" rel="stylesheet" />
         <Script src="js/common/modernizr.js"></Script>
+        <Script src="js/common.js"></Script>
+        <Script src="js/common/jquery-1.11.1.min.js"></Script>
+        <Script src="js/common/bootstrap.min.js"></Script>
+        <Script src="js/common/bootstrap-datepicker.js"></Script>
+        <Script src="js/common/chosen.min.js"></Script>
+        <Script src="js/common/bootstrap-checkbox.js"></Script>
+        <Script src="js/common/nice-scroll.js"></Script>
+        <Script src="js/common/jquery-browser.js"></Script>
+        <Script src="js/scripts.js"></Script>
       </head>
 
       <body suppressHydrationWarning>
@@ -158,15 +167,6 @@ export default function RootLayout({ children, footer }) {
         </div>
         {/* <!-- END WRAPPER --> */}
 
-        <Script src="js/common.js"></Script>
-        <Script src="js/common/jquery-1.11.1.min.js"></Script>
-        <Script src="js/common/bootstrap.min.js"></Script>
-        <Script src="js/common/bootstrap-datepicker.js"></Script>
-        <Script src="js/common/chosen.min.js"></Script>
-        <Script src="js/common/bootstrap-checkbox.js"></Script>
-        <Script src="js/common/nice-scroll.js"></Script>
-        <Script src="js/common/jquery-browser.js"></Script>
-        <Script src="js/scripts.js"></Script>
       </body>
     </html>
   );
