@@ -20,16 +20,16 @@ export default function RootLayout({ children, footer }) {
       <head>
         <link href="css/bootstrap.min.css" rel="stylesheet" />
         <link href="css/style.css" rel="stylesheet" />
-        <Script src="js/common/modernizr.js" defer></Script>
-        <Script src="js/common.js" defer></Script>
-        <Script src="js/common/jquery-1.11.1.min.js" defer></Script>
-        <Script src="js/common/bootstrap.min.js"  defer></Script>
-        <Script src="js/common/bootstrap-datepicker.js" defer></Script>
-        <Script src="js/common/chosen.min.js" defer></Script>
-        <Script src="js/common/bootstrap-checkbox.js" defer></Script>
-        <Script src="js/common/nice-scroll.js" defer></Script>
-        <Script src="js/common/jquery-browser.js" defer></Script>
-        <Script src="js/scripts.js"></Script>
+        <Script rel="preload" src="js/common/modernizr.js" as="script"></Script>
+        <Script rel="preload" src="js/common.js" as="script"></Script>
+        <Script rel="preload" src="js/common/jquery-1.11.1.min.js" as="script"></Script>
+        <Script rel="preload" src="js/common/bootstrap.min.js"  as="script"></Script>
+        <Script rel="preload" src="js/common/bootstrap-datepicker.js" as="script"></Script>
+        <Script rel="preload" src="js/common/chosen.min.js" as="script"></Script>
+        <Script rel="preload" src="js/common/bootstrap-checkbox.js" as="script"></Script>
+        <Script rel="preload" src="js/common/nice-scroll.js" as="script"></Script>
+        <Script rel="preload" src="js/common/jquery-browser.js" as="script"></Script>
+        <Script rel="preload" src="js/scripts.js" as="script"></Script>
       </head>
 
       <body suppressHydrationWarning>
