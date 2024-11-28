@@ -16,7 +16,7 @@ export default function RegionPage() {
                 <h3 className="city">{region.city}</h3>
                 <span className="location">{region.location}</span>
               </a>
-              <img src="http://placehold.it/760x670" alt={region.city} />
+              <img src="https://placehold.it/760x670" alt={region.city} />
             </div>
           </div>
         ))}

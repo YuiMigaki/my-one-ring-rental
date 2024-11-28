@@ -45,7 +45,7 @@ export default function MainFooter() {
                       <div className="image">
                         <a href="regions">
                           <img
-                            src="http://placehold.it/760x670"
+                            src="https://placehold.it/760x670"
                             alt={region.title}
                           />
                         </a>
@@ -64,7 +64,7 @@ export default function MainFooter() {
                       <div className="image">
                         <a href="regions">
                           <img
-                            src="http://placehold.it/760x670"
+                            src="https://placehold.it/760x670"
                             alt={region.title}
                           />
                         </a>

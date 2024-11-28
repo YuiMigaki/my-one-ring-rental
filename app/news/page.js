@@ -20,7 +20,7 @@ export default function News() {
                           <i className="fa fa-file-o"></i> Read More
                         </span>
                       </a>
-                      <img src="http://placehold.it/766x515" alt="" />
+                      <img src="https://placehold.it/766x515" alt="" />
                     </div>
                     <div className="tag">
                       <i className="fa fa-file-text"></i>

@@ -26,7 +26,7 @@ const SlideList = () => {
             id={slide.id}
             style={{
               background:
-                "url(http://placehold.it/1920x605) no-repeat left center",
+                "url(https://placehold.it/1920x605) no-repeat left center",
               backgroundSize: "cover",
             }}
           >

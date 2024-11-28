@@ -16,7 +16,7 @@ export default function MainComponent() {
                 <h3>{property.title}</h3>
                 <span className="location">{property.location}</span>
               </a>
-              <img src="http://placehold.it/760x670" alt="" />
+              <img src="https://placehold.it/760x670" alt="" />
             </div>
             <div className="price">
               <span>{property.price}</span>
@@ -43,7 +43,7 @@ export default function MainComponent() {
             {regions.map((region) => (
               <div className="item" key={region.id}>
                 <a href="/">
-                  <img src="http://placehold.it/194x194" alt="" />
+                  <img src="https://placehold.it/194x194" alt="" />
                   <h3>{region.header}</h3>
                 </a>
               </div>
@@ -62,7 +62,7 @@ export default function MainComponent() {
                   <i className="fa fa-file-o"></i> Read More
                 </span>
               </a>
-              <img src="http://placehold.it/766x515" alt="" />
+              <img src="https://placehold.it/766x515" alt="" />
             </div>
             <div className="tag">
               <i className={article.icon}></i>

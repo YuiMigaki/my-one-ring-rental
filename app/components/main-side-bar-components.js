@@ -15,7 +15,7 @@ export default function Sidebar() {
               <li className="col-md-12" key={deal.id}>
                 <div className="image">
                   <a href="/"></a>
-                  <img src="http://placehold.it/90x90" alt="placeholder" />
+                  <img src="https://placehold.it/90x90" alt="placeholder" />
                 </div>
   
                 <ul className="top-info">
@@ -44,7 +44,7 @@ export default function Sidebar() {
             {activities.map((activity) => (
               <li className="col-lg-12" key={activity.id}>
                 <a href="/">
-                  <img src="http://placehold.it/70x70" alt="placeholder" />
+                  <img src="https://placehold.it/70x70" alt="placeholder" />
                 </a>
                 <div className="info">
                   <h5>
